@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+body{
+    display: flex;
+    background: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: rgb(149, 172, 243);
+    margin: 50px;
+    box-shadow: 0 45px 70px rgba(0,0,0,0.1);
+    /* border-left: 50px solid rgb(149, 172, 243);
+    border-right: 50px solid rgb(149, 172, 243); */
+    border-radius: 10px;
+
+}
+
+
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    padding-bottom:0;
+    float: inline-end;
+}
+
+.container .top .imgbx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .top .imgbx .box{
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+
+}
+
+.container .top .imgbx .box {
+    position: relative;
+    top: 15px;
+    margin-left: 50px;
+}
+
+.container .top .profile-text{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.container .top .profile-text h3{
+color: #f9f9f9;
+font-size:2rem;
+letter-spacing: 0.1rem;
+font-weight: 600;
+}
+
+.container .top .profile-text h3 span {
+    position:relative;
+    color: #f9f9f9;
+    font-size:1rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    
+}
+
+/*Main content*/
+
+.container .content{
+    position: relative;
+    min-height: 500px;
+    background-color: #f9f9f9;
+    border-left: 50px solid #f9f9f9;
+    border-right: 80px solid #f9f9f9;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding:  40px 24px 40px;
+}
+
+.container .content h3{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container .content ul li{
+    list-style: none;
+    color: #333;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container .content ul li span{
+    text-align: justify;
+}
+
+.skills li{
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.skills li span{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skills .percent{
+    position: relative;
+    width: 100%;
+    background: #e3e3e3;
+    height: 10px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #3590d2;
+}
+
+table {
+    width: 100%;
+    margin-left: 88px;
+    margin-top: 30px;
+    
+}
+
+th {
+    text-align: left;
+}
+
+td{
+    padding: 6px;
+}
+
+.space{
+    position: relative;
+    min-height: 48px;
+    margin-left: 100px;
+}
+
+.sk{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.skills2 li {
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.skills2 li span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skills2 .percent {
+    position: relative;
+    width: 100%;
+    background: #e3e3e3;
+    height: 10px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.skills2 .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #04AA6D;
+}
