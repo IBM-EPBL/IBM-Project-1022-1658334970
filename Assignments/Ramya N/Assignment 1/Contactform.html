@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./contact-form.css">
+</head>
+<body>
+    <h3 style="font-size: 34px; text-align:center; margin: 8px;
+    margin-top: 20px;" >Contact Form</h3>
+    
+    <div class="container" style="margin: 0 300px;">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+            <label for="emailid">Email</label><br>
+            <input type="email" name="email" id="emailid" placeholder="Your Email."><br>
+    
+            <label for="number">Mobile</label>
+            <input type="tel" id="number" name="Mobile" placeholder="Your Mobile number."><br>
+            
+    
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write your message." style="height:200px"></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
