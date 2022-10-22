@@ -2,3 +2,6 @@
 
 ### This chatbot will do two functions. 
 ### It will display the hospital branches and book appointment for a patient
+
+
+![chatbot](https://user-images.githubusercontent.com/86370900/197333184-ab588d08-3385-4f83-ad82-6290cd24731b.png)
