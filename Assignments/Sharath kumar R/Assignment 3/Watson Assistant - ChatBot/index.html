@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center" ;>Virtual Bot</h1>
+    <h3>
+      This chatbot assistant will help to check the Hospital branches and to
+      book appointments in three main cities - Chennai , Bangalore and
+      Hyderabad.
+    </h3>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "570c7aea-28ec-4a7a-833e-c66d7a9f8f89", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "5d584591-8035-4368-a77a-c1819f587fe5", // The ID of your service instance.
+        onLoad: function (instance) {
+          instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </body>
+</html>
