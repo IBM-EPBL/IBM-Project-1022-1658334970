@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["ibm-db2", "--bind", "0.0.0.0:5000", "app:app"]
+CMD ["ibm_db2", "--bind", "0.0.0.0:5000", "app:app"]
