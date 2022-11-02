@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> FlaskApp</title>
+    <link rel="stylesheet" href="templates/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="{{ url_for('index') }}">FlaskApp</a>
+        <a href="{{ url_for('create') }}">Create</a>
+       
+    </nav>
+    <hr>
+    <div class="content">
+        {% for message in get_flashed_messages() %}
+            <div class="alert">{{ message }}</div>
+        {% endfor %}
+        {% block content %} {% endblock %}
+    </div>
 
+</body>
+</html>
