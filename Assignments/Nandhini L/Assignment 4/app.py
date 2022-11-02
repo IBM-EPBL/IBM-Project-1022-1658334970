@@ -18,7 +18,7 @@ def create():
             name = "Shyam Mohan"
             return redirect(url_for('index', messages=name ))
 
-    return render_template('create.html')
+    return render_template('text.html')
 
 
 messages = [{'title': 'Message One',
