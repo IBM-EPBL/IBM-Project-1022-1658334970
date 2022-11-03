@@ -10,6 +10,10 @@ def hello_world():
 def home_page():
     return render_template('home.html')
 
+@app.route("/about")
+def about_page():
+    return render_template('about.html')
+
 @app.route("/register")
 def register_page():
     return render_template('register.html')
