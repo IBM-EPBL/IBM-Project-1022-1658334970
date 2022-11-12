@@ -1,9 +1,5 @@
 from flask import Flask,render_template,request,url_for,flash,redirect,session
-import ibm_db
-import sendgrid
-import os
-import re
-from sendgrid.helpers.mail import *
+
 
 app = Flask(__name__)
 
