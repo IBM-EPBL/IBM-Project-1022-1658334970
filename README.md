@@ -7,7 +7,7 @@ During the COVID 19 crisis, the requirement of plasma became a high priority and
 
 # Tasks
 * [Setting Up Application Environment](https://github.com/IBM-EPBL/IBM-Project-1022-1658334970/tree/main/Project%20Design%20%26%20Planning/Setting%20Up%20Application%20Environment)
-* [Implementing Web Application]()
+* [Implementing Web Application](https://github.com/IBM-EPBL/IBM-Project-1022-1658334970/tree/main/Project%20Design%20%26%20Planning/Implementing%20Web%20Application)
 * [Integrating SendGrid Service]()
 * [Deployment Of App In IBM Cloud]()
 
